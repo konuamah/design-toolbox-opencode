@@ -1,0 +1,33 @@
+{
+  "name": "design-toolbox-opencode",
+  "version": "1.0.0",
+  "description": "Design skills, commands, and anti-pattern detection for OpenCode. Powered by the Impeccable design language (38k+ stars).",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist/",
+    "skills/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "prepare": "npm run build"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@opencode-ai/plugin": "^1.0.0",
+    "typescript": "^5.7.0"
+  }
+}
