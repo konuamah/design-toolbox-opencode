@@ -1,6 +1,12 @@
 ---
 name: full-output-enforcement
-description: Overrides default LLM truncation behavior. Enforces complete code generation, bans placeholder patterns, and handles token-limit splits cleanly. Apply to any task requiring exhaustive, unabridged output.
+description: >
+  Applies to any task where the AI produces truncated, incomplete, or
+  placeholder-ridden output. Overrides default LLM truncation behavior,
+  enforces complete code generation, bans placeholder patterns, and
+  handles token-limit splits cleanly. Use when building components,
+  pages, or any implementation requiring exhaustive, unabridged output
+  with no `// ...`, `/* TODO */`, or incomplete stubs.
 ---
 
 # Full-Output Enforcement
