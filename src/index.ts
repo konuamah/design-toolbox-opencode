@@ -78,6 +78,7 @@ const statusTool = tool({
         "",
         "━━━ Design Taste — Anti-Slop Prevention (ACTIVE) ━━━━━",
         `  • taste-skill — 3 dials: VARIANCE / MOTION / DENSITY`,
+        `  • taste-variants — generate 3 parallel design variants for comparison`,
         `  • taste-soft — polished, calm, high-end visual design`,
         `  • taste-minimalist — editorial product UI (Notion/Linear vibes)`,
         `  • taste-brutalist — industrial, Swiss type, sharp contrast`,
